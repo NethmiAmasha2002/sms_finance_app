@@ -59,7 +59,7 @@ UI (Screens/Widgets)
        ▼
   Models                         ← TransactionModel (immutable, copyWith)
 ---
----
+
 ## 🔍 SMS Parsing
 
 The parser (`SmsParserService`) uses regex to extract:
