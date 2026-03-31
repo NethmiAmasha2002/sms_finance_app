@@ -58,15 +58,6 @@ UI (Screens/Widgets)
        │  returns
        ▼
   Models                         ← TransactionModel (immutable, copyWith)
-```
-
-**Key principles followed:**
-- ❌ No business logic inside widgets
-- ✅ `SmsParserService` is pure Dart — fully testable in isolation
-- ✅ `TransactionNotifier` owns all state mutations
-- ✅ Derived providers (`totalExpensesProvider`, `totalIncomeProvider`) computed from single source of truth
-- ✅ Detail screen watches `transactionProvider` reactively — category changes propagate immediately
-
 ---
 
 ## 🔍 SMS Parsing
